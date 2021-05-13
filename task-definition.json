@@ -1,6 +1,6 @@
 {
     "ipcMode": null,
-    "executionRoleArn": "arn:aws:iam::178027395537:role/dev-twang69-exec",
+    "executionRoleArn": "arn:aws:iam::178027395537:role/dev-xzhang198-exec",
     "containerDefinitions": [
       {
         "dnsSearchDomains": null,
