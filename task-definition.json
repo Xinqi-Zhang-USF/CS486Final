@@ -1,6 +1,6 @@
 {
     "ipcMode": null,
-    "executionRoleArn": "arn:aws:iam::178027395537:role/usfca-cs-486-dev-demo-exec",
+    "executionRoleArn": "arn:aws:iam::178027395537:role/dev-twang69-exec",
     "containerDefinitions": [
       {
         "dnsSearchDomains": null,
@@ -9,7 +9,7 @@
           "logDriver": "awslogs",
           "secretOptions": null,
           "options": {
-            "awslogs-group": "usfca-cs-486-dev-demo",
+            "awslogs-group": "dev-xzhang198",
             "awslogs-region": "us-west-2",
             "awslogs-stream-prefix": "demo"
           }
@@ -42,7 +42,7 @@
         "memoryReservation": 128,
         "volumesFrom": [],
         "stopTimeout": 30,
-        "image": "178027395537.dkr.ecr.us-west-2.amazonaws.com/usfca-cs-486-dev-demo",
+        "image": "178027395537.dkr.ecr.us-west-2.amazonaws.com/dev-xzhang198",
         "startTimeout": 30,
         "firelensConfiguration": null,
         "dependsOn": null,
@@ -59,18 +59,18 @@
         "dockerLabels": null,
         "systemControls": null,
         "privileged": null,
-        "name": "usfca-cs-486-dev-demo"
+        "name": "dev-xzhang198"
       }
     ],
     "placementConstraints": [],
     "memory": "512",
-    "taskRoleArn": "arn:aws:iam::178027395537:role/usfca-cs-486-dev-demo-task",
+    "taskRoleArn": "arn:aws:iam::178027395537:role/dev-xzhang198-task",
     "compatibilities": [
       "EC2",
       "FARGATE"
     ],
-    "taskDefinitionArn": "arn:aws:ecs:us-west-2:178027395537:task-definition/usfca-cs-486-dev-demo:3",
-    "family": "usfca-cs-486-dev-demo",
+    "taskDefinitionArn": "arn:aws:ecs:us-west-2:178027395537:task-definition/dev-xzhang198:3",
+    "family": "dev-xzhang198",
     "requiresAttributes": [
       {
         "targetId": null,
