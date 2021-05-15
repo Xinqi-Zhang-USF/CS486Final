@@ -135,7 +135,8 @@
     ],
     "pidMode": null,
     "requiresCompatibilities": [
-      "FARGATE"
+      "FARGATE",
+       "EC2"
     ],
     "networkMode": "awsvpc",
     "cpu": "256",
