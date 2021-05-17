@@ -3,6 +3,12 @@ from flask import Flask
 app = Flask(__name__)
 
 
+
+@app.route('/')
+def hello():
+  return "Hello, CICD world."
+
+
 @app.route('/<int:number>')
 def xinqi_draw(number):
     if number == 1:
