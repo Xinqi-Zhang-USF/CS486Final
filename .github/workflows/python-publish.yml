@@ -134,7 +134,7 @@ jobs:
         env:
           API_URL: http://dev-xzhang198-156489589.us-west-2.elb.amazonaws.com/
         run: |
-          pytest lucky-draw-features.py
+          pytest xinqi-draw-features.py
       - name: Docker build and push to prod
         id: build-image-prod
         env:
