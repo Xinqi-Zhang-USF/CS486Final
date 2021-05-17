@@ -10,7 +10,7 @@ Feature:  Xinqi draw features
 
     Examples: draws
       | number   | result                       |
-      | 1        | Oh you are not xinqi     |
+      | 1        | Oh you are not xinqi         |
       | 2        | Geez you are extremely xinqi |
       | 3        | Please try one more time     |
       | 4        | Please try one more time     |
