@@ -3,10 +3,9 @@ import requests
 
 from pytest_bdd import scenarios, when, then
 
-API = 'http://0.0.0.0:5000/'
+API = os.getenv('API_URL')
 
-scenarios('./features/app.feature',
-          example_converters=dict(number=int, result=str))
+scenarios('./features/app.feature', example_converters=dict(number=int, result=str))
 
 
 @pytest.fixture
