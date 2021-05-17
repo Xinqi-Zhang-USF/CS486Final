@@ -41,9 +41,9 @@
         "memory": 512,
         "memoryReservation": 128,
         "volumesFrom": [],
-        "stopTimeout": 30,
+        "stopTimeout": 2,
         "image": "178027395537.dkr.ecr.us-west-2.amazonaws.com/dev-xzhang198",
-        "startTimeout": 30,
+        "startTimeout": 2,
         "firelensConfiguration": null,
         "dependsOn": null,
         "disableNetworking": null,
@@ -135,8 +135,7 @@
     ],
     "pidMode": null,
     "requiresCompatibilities": [
-      "FARGATE",
-       "EC2"
+      "FARGATE"
     ],
     "networkMode": "awsvpc",
     "cpu": "256",
