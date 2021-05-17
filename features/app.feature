@@ -1,10 +1,10 @@
-Feature:  Lucky draw features
-  As a person who believes in fate & fortune,
-  I want to figure out if I am lucky, given a input number
+Feature:  Xinqi draw features
+  As a person who want to make check Xinqi identity
+  I want to figure out if the person is Xinqi, given a input id number
 
 
-  Scenario Outline: Lucky Draw API Query
-    When the Lucky Draw API is queried with <number>
+  Scenario Outline: Xinqi Draw API Query
+    When the Xinqi Draw API is queried with <number>
     Then the response status code is 200
     And the response shows <result>
 
