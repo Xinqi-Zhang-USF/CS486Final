@@ -1,7 +1,7 @@
-import pytest
-import requests
+import pytest, requests, os
 
 from pytest_bdd import scenarios, when, then
+
 
 API = os.getenv('API_URL')
 
