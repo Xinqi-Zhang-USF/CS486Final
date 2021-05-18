@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-  return "Hello, wolf."
+  return "Xinqi CS486 Final."
 
 @app.route('/<int:number>')
 def xinqi_draw(number):
